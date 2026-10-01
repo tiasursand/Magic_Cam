@@ -1,6 +1,7 @@
 name: Build Magic Cam Zygisk Module
 
 on:
+  workflow_dispatch:
   push:
     branches: [ main, develop ]
     tags: [ 'v*' ]
